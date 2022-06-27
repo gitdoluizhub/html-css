@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+        header{
+            background-color: hsl(0, 0%, 100%);
+            padding: 3px;
+            margin: 5px;
+        }
+        .titulo{
+            text-decoration: underline;
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(175, 175, 175);
+            box-shadow: 1px 1px 10px rgb(0 0 0 / 51%)
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blueviolet;
+        }
+        main{
+            background-color: gray;
+            padding: 1px;
+            margin: 0px;
+            border: 0px;
+            
+            
+        }
+        section{
+            background-color: rgb(248, 248, 248);
+            color: rgb(0, 0, 0);
+            padding: 1px 4px 8px 4px;
+            margin: 5px;
+            box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.555);            border-radius: 10px;
+        }
+        aside {
+            background-color: black;
+            color: rgb(182, 182, 182);
+        }
+        footer{
+            text-align: center;
+            text-decoration: black;
+            background-color: darkgray;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        /*
+        #boleta{
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            border-radius: 50%;
+            background-color: rgb(51, 0, 58);
+            box-shadow: 10px 3px 10px rgba(0, 0, 0, 0.432);
+        }*/
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Titulo</h1>
+        <nav>
+            <a href="#">Linkzao</a>
+            <a href="#">Linkzao</a>
+            <a href="#">Linkzao</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2 class="titulo">Titulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam commodi sint, sit odit mollitia numquam, nemo esse velit impedit modi recusandae deserunt dolorem explicabo, assumenda accusamus expedita dolores distinctio nam!</p>
+            </article>
+            <article>
+                <aside>por cleidson 1943-2903</aside>
+            </article>
+        </section>
+    </main>
+    <footer> <p>by: Cansaço</p></footer>
+    <div id="boleta"></div>
+</body>
+</html>

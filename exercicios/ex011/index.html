@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexiveis</title>
+</head>
+<body>
+    <h1>Imagens se adaptando ao tamanho da tela</h1>
+    <p> Imagem adaptativa abaixo </p> 
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <!--MAX = TANTO DE PIXELS QUE PODE TER NO MAXIMO PRA APARECER A FOTO P-->
+        <source media="(max-width: 1050px)"  srcset="imagens/foto-m.png" type="image/png"> <!--MIN = TANTO DE PIXELS QUE PODE TER NO MINIMO PRA APARECER A FOTO G-->
+        <img src="imagens/foto-g.png" alt="letra g">
+    </picture>
+    <p>Agora a coisa é com os audios</p>
+    <audio preload="auto" controls loop autoplay>
+    <source src="audios/X2Download.com - Hammoud (128 kbps).mp3" type="audio/mpeg">
+    </audio>
+    <p>Se ja foi audio agora vai video ne</p> 
+    <video width="400" poster="imagens/foto-p.png" controls autoplay loop>
+        <source src="videos/salsicha.mp4" type="video/mp4">
+    </video>
+    <p>Video carregado externamente</p>
+    <iframe width="560" height="480" src="https://www.youtube.com/embed/wLzRGECGyCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <blockquote class="twitter-tweet" data-lang="pt" data-dnt="true" data-theme="dark"><p lang="pt" dir="ltr">o grupo: vamo pra um role vai ser um role suave!<br><br>o role: <a href="https://t.co/1y3lRUH4s2">pic.twitter.com/1y3lRUH4s2</a></p>&mdash; de Lucca (@deLucccawai) <a href="https://twitter.com/deLuccawai/status/1481338630870343682?ref_src=twsrc%5Etfw">12 de janeiro de 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>

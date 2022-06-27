@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font: normal 1em Arial, Verdana, sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(188, 116, 255);
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(253, 162, 253);
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(117, 14, 117);
+        }
+        .favorito::after{
+            content: ' ☚';
+        }
+        .favorito::before{
+            content: '☞ ';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Links Personalizados</h1>
+    <ul>
+        <li><a href="https://music.youtube.com/playlist?list=PLewnnAAOHCNianyR1lV-faY9YihXjlBEv&feature=share" class="favorito" target="_blank">Playlist do Ytb</a></li>
+        <li><a href="https://discord.gg/gWreEEM7" target="_blank">Links Do discord</a></li>
+        <li><a href="https://twitter.com/LmfaoWith/status/1534734399287308288?s=20&t=udN6GeEpLhvFyeUz8NoZtA" target="_blank">Meme ruim do Twitter</a></li>
+    </ul>
+</body>
+</html>
