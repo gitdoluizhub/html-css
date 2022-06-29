@@ -1,0 +1,32 @@
+@charset "UTF-08";
+
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-image: linear-gradient( to right ,rgb(56, 56, 56), transparent);
+    color: rgb(37, 37, 37);
+    border-radius: 8px;
+    padding-left: 5px;
+    text-align: center;
+}
+p{
+    color: white;
+}
+li{
+    color: white;
+    list-style: linear-gradient(to bottom, blueviolet, blue);
+}
+a{
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+}
+#roxo:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+#azul:hover{
+    color: blue;
+    text-decoration: underline;
+}
