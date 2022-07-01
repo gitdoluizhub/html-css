@@ -84,12 +84,15 @@ main{
 main h1{
     color: var(--cor5);
     font-family: var(--fonteandroid);
+    font-weight: normal;
+    font-size: 1.8em;
 }
 main h2{
     background-image: linear-gradient(to right, var(--cor1), transparent);
     color: var(--cor4);
     font-family: var(--fonteandroid);
     font-size: 1.3em;
+    font-weight: normal;
     padding: 3px 10px;
 }
 main p{
