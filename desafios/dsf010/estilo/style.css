@@ -26,18 +26,42 @@ body{
     font-family: var(--fontepadrao);
 }
 header{
-    background-color: var(--cor4);
-    
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    text-align: center;
+    min-height: 150px;
+    padding-top: 40px;
 }
 header h1{
     color: white;
     font-family: var(--fontedestaque);
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.541);
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 header > p{
     color: white;
+    font-family: var(--fontepadrao);
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.541);
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
 }
 nav{
     background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.555);
+}
+nav > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
 }
 main{
     max-width: 1000px;
