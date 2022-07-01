@@ -173,6 +173,7 @@ footer{
 footer a{
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 footer a:hover{
     color: var(--cor2);
