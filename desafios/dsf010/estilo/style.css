@@ -1,5 +1,6 @@
 @charset "UTF-08";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 @font-face {
     font-family: 'Android';
     src: url(../fontes/idroid.otf);
@@ -15,7 +16,7 @@
     --cor5: #063d1e;
     --fontepadrao: Arial, Helvetica, sans-serif;
     --fonteandroid: 'Android', sans-serif;
-    --fontedestaque: 'Bebas Neue', cursive;
+    --fontedestaque: 'Dancing Script', cursive;
 }
 *{
     margin: 0px;
@@ -39,9 +40,10 @@ header h1{
     color: white;
     font-family: var(--fontedestaque);
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.541);
-    font-size: 3em;
+    font-size: 4em;
     margin-bottom: 20px;
 }
+
 header > p{
     color: white;
     font-family: var(--fontepadrao);
