@@ -1,7 +1,5 @@
 @charset "UTF-08";
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @font-face {
     font-family: 'Android';
     src: url(../fontes/idroid.otf);
@@ -16,8 +14,7 @@
     --cor4: #4f1a5c;
     --cor5: #3e0a4d;
     --fontepadrao: 'Arial', Helvetica, sans-serif;
-    --fonteenfase: 'Amatic SC', sans-serif;
-    --fontedestaque: 'Dancing Script', cursive;
+    --fontetitulo: 'Lobster', cursive;
 }
 *{
     margin: 0px;
@@ -32,22 +29,24 @@ a.externo::before{
 }
 
 header{
-    background-image: linear-gradient(to bottom,var(--cor0), var(--cor3));
+    /* background-color: black; */
+    background-image: linear-gradient(to bottom,var(--cor3), var(--cor5));
     text-align: center;
     min-height: 150px;
     padding-top: 40px;
 }
+
 header h1{
-    color: white;
-    font-family: var(--fontedestaque);
+    color: #D4AF37;
+    font-family: var(--fontetitulo);
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.541);
-    font-size: 4em;
+    font-size: 3.5em;
     margin-bottom: 20px;
 }
 
 header > p{
     color: white;
-    font-family: var(--fonteenfase);
+    font-family: var(--fontetitulo);
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.541);
     font-size: 1.2em;
     max-width: 500px;
@@ -86,14 +85,14 @@ main{
 }
 main h1{
     color: var(--cor5);
-    font-family: var(--fonteenfase);
+    font-family: var(--fontetitulo);
     font-weight: normal;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 main h2{
     background-image: linear-gradient(to right, var(--cor1), transparent);
     color: var(--cor4);
-    font-family: var(--fonteandroid);
+    font-family: var();
     font-size: 1.3em;
     font-weight: normal;
     padding: 3px 10px;
